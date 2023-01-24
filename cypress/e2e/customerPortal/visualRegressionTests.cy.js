@@ -26,16 +26,16 @@ describe("Visual regression tests with Percy", () => {
   });
 });
 
-//  The datapoints reflected in the UI should be identical post-migration
+//  The data points reflected in the UI should be identical post-migration
 //  in order to ensure continuity between snapshots.
 //
-//  Currrently, I'm unable to retirve any data by monitoring the network traffic.
-//  To illitstrate how this data could be maniplilated I added the following fixture
+//  Currently, I'm unable to retrieve any data by monitoring the network traffic.
+//  To illustrate how this data could be manipulated I added the following fixture
 //  in the 'fixtures' folder:  [ companiesDataExample.json ]
 //
 //  Mocking the data with a fixture can ensure values
-//  are consitent before the DOM is captured by Percy
-//  the code to achieve that would look somthing like this:
+//  are consistent before the DOM is captured by Percy
+//  the code to achieve that would look something like this:
 //
 //  cy.intercept("GET", "/api/companies", {
 //     fixture: "companiesDataExample",
@@ -43,3 +43,4 @@ describe("Visual regression tests with Percy", () => {
 //   cy.wait("@companies");
 //
 //  I would complete this process for each page in the tests.
+
