@@ -14,7 +14,7 @@ import {
     cy.url().should("include", path + ".html");
   };
 
-  //Finds and element by class name and record it's DOM state
+  //Finds an element by class name and records it's DOM state
   const percySnapshotElement = (classname, percyTitle) => {
     cy.get(classname)
       .should("exist")
