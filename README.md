@@ -1,4 +1,4 @@
-# plooto-take-home-assignment 
+# plooto
 
 This project uses the latest versions of Cypress.io and Percy to run visual regression tests on the static test site. 
 
